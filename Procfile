@@ -1,1 +1,1 @@
-web: gunicorn library.wsgi --bind
+web: gunicorn library.wsgi --log-file -
