@@ -1,0 +1,42 @@
+#id_name {
+    margin-top: 5px;
+    margin-left: 2cm;
+    padding: 3px;
+
+}
+#id_adresse{
+    margin-top: 5px;
+    margin-left: 2cm;
+    padding: 3px;
+}
+#id_name_book {
+    margin-top: 5px;
+    margin-left: 2cm;
+    padding: 3px;
+}
+#id_author {
+    margin-top: 5px;
+    margin-left: 2cm;
+    padding: 3px;
+}
+#id_cover_picture_book {
+    margin-top: 5px;
+    padding: 3px;
+    margin-left: 2cm;
+}
+button {
+    margin-top: 5px;
+    background-color: rgb(3, 255, 66);
+    height: 1cm;
+    width: 3cm;
+}
+form{
+    width: 3cm;
+    align-items: center;
+    padding: 9px;
+}
+h1{
+    margin-left: 2cm;
+    text-align: center;
+
+}
