@@ -30,8 +30,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'https://library237.herokuapp.com',
-    'https://www.liibrary237.herokuapp.com',
-    'pl4g.herokuapp.com',
+    'https://www.library237.herokuapp.com',
+    'library237.herokuapp.com',
     '127.0.0.1',
     'localhost',
 ]
