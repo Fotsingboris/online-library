@@ -3,6 +3,8 @@ from django.http import HttpResponse
 from books.forms import StoreForms
 from multiprocessing import context
 
+from books.forms import Store
+from .models import *
 # Create your views here.
 
 def home(request):
@@ -17,3 +19,10 @@ def home(request):
             'form': form
     }
     return render(request, 'index.html', context)
+
+def result(request):
+    customer = Store.objects.all()
+    context = {
+        'customer': customer,
+    }
+    return render(request, 'result.html', context)

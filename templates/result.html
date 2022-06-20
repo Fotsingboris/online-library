@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for element in customer %}
+    <p>{{element.name}}</p>
+    <p>{{element.address}}</p>
+    <p>{{element.name_book}}</p>
+    <p>{{element.author}}</p>
+    <img src="{{element.cover_picture_book.url}}" width="200px" 
+    height="200px" alt="image of {{element.cover_picture_book}}">
+    {% endfor %}
+</body>
+</html>
